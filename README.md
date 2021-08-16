@@ -57,7 +57,7 @@ java -Dspring.profiles.active=tool -jar target\rock-paper-scissors-0.0.1-SNAPSHO
 
 by default iterations value to launch new game is 10. user defined value can be given as : <br>
 java -Dspring.profiles.active=tool -jar target\rock-paper-scissors-0.0.1-SNAPSHOT.jar --iterations=1 <br>
-java -Dspring.profiles.active=tool -jar target\rock-paper-scissors-0.0.1-SNAPSHOT.jar --mode=SINGLE_PLAYER -iterations=1 --firstPlayer=john <br>
+java -Dspring.profiles.active=tool -jar target\rock-paper-scissors-0.0.1-SNAPSHOT.jar --mode=SINGLE_PLAYER --iterations=1 --firstPlayer=john <br>
 
 ###### Enabling debugging
 _java -Dspring.profiles.active=tool -Dlogging.level.com.game.rockpaperscissors=DEBUG -jar target\rock-paper-scissors-0.0.1-SNAPSHOT.jar_
